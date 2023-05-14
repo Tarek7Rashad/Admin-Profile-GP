@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <aside id="sidebar">
+            <div class="h-100">
+                <div class="sidebar-logo">
+                    <a href="#">Moghtareb</a>
+                </div>
+                <ul class="sidebar-nav">
+                    <li class="sidebar-header">
+                        Pages
+                    </li>
+                    <li class="sidebar-items">
+                        <a href="#" class="sidebar-link">
+                            <i class="fa-solid fa-house"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="sidebar-items">
+                        <a href="#" class="sidebar-link">
+                            <i class="fa-solid fa-users"></i>
+                            Student
+                        </a>
+                    </li>
+                    <li class="sidebar-items">
+                        <a href="#" class="sidebar-link">
+                            <i class="fa-solid fa-user-tie"></i>
+                            Owner
+                        </a>
+                    </li>
+                    <li class="sidebar-header">
+                        Other
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="active sidebar-link">
+                            <i class="fa-solid fa-bell"></i>
+                            Notification
+                        </a>
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <button class="theme-toggle" type="button">
+                                <i class="fas fa-moon"></i>
+                                <i class="fas fa-sun"></i>
+
+                            </button>
+                            Mood
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main">
+            <nav class="dashboard-navbar">
+                <button type="button" class="toggle-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <form action="#">
+                    <div class="nav-search">
+                        <input type="text" class="search-query" placeholder="Search">
+                        <span class="search-icon">
+                            <i class="fa-solid fa-magnifying-glass">
+
+                            </i>
+                        </span>
+                        <button class="btn" type="button"> Search </button>
+
+                    </div>
+                </form>
+                <div class="navbar-content">
+                    <ul class="main-nav">
+                        <li class="user-link">
+                            <a href="#" class="user-profile">
+                                <img src="avatar.png" alt="profile image" class="avatar">
+                            </a>
+                            <div class="user-link-dropdown">
+                                <a href="#" class="openP dropdown-item">Profile</a>
+                                <a href="#" class="logoutA dropdown-item">Logout</a>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- ************************************* Notification Section ********************************************************* -->
+            <div class="container0">
+                <header class="notify-header">
+                    <div class="notify-box">
+                        <h2 class="title">Notifications</h2>
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                    <p id="mark-all">Mark all as read</p>
+                </header>
+                <main id="notify-main1" class="notify-main">
+                    <div class="notif-card unread">
+                        <img src="avatar.png" alt="avatar">
+                        <div class="description">
+                            <p class="user-activity">
+                                <strong>User Name</strong>
+                                <span class="for_notify"> has made a new post has made a new post has made a new post
+                                    has made a new post
+                                    has made
+                                    a new post has made a new post has made a new post has made a new post has made a
+                                    new
+                                    post
+                                </span>
+                            </p>
+                            <p class="time">1m ago</p>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"></label><br>
+                        </div>
+                    </div>
+                    <div class="notif-card unread">
+                        <img src="avatar.png" alt="avatar">
+                        <div class="description">
+                            <p class="user-activity">
+                                <strong>User Name</strong>
+                                <span class="for_notify"> has made a new post has made a new post has made a new post
+                                    has made a new post
+                                    has made
+                                    a new post has made a new post has made a new post has made a new post has made a
+                                    new
+                                    post
+                                </span>
+                            </p>
+                            <p class="time">1m ago</p>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"></label><br>
+                        </div>
+                    </div>
+                    <div class="notif-card unread">
+                        <img src="avatar.png" alt="avatar">
+                        <div class="description">
+                            <p class="user-activity">
+                                <strong>User Name</strong>
+                                <span class="for_notify"> has made a new post has made a new post has made a new post
+                                    has made a new post
+                                    has made
+                                    a new post has made a new post has made a new post has made a new post has made a
+                                    new
+                                    post
+                                </span>
+                            </p>
+                            <p class="time">1m ago</p>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"></label><br>
+                        </div>
+                    </div>
+                    <div class="notif-card unread">
+                        <img src="avatar.png" alt="avatar">
+                        <div class="description">
+                            <p class="user-activity">
+                                <span class="for_notify"> has made a new post has made a new post has made a new post
+                                    has made a new post
+                                    has made
+                                    a new post has made a new post has made a new post has made a new post has made a
+                                    new
+                                    post
+                                </span>
+                            </p>
+                            <p class="time">1m ago</p>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"></label><br>
+                        </div>
+                    </div>
+                    <div class="notif-card unread">
+                        <img src="avatar.png" alt="avatar">
+                        <div class="description">
+                            <p class="user-activity">
+                                <strong>User Name</strong>
+                                <span class="for_notify"> has made a new post has made a new post has made a new post
+                                    has made a new post
+                                    has made
+                                    a new post has made a new post has made a new post has made a new post has made a
+                                    new
+                                    post
+                                </span>
+                            </p>
+                            <p class="time">1m ago</p>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"></label><br>
+                        </div>
+                    </div>
+                    <div class="notif-card unread">
+                        <img src="avatar.png" alt="avatar">
+                        <div class="description">
+                            <p class="user-activity">
+                                <strong>User Name</strong>
+                                <span class="for_notify"> has made a new post has made a new post has made a new post
+                                    has made a new post
+                                    has made
+                                    a new post has made a new post has made a new post has made a new post has made a
+                                    new
+                                    post
+                                </span>
+                            </p>
+                            <p class="time">1m ago</p>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"></label><br>
+                        </div>
+                    </div>
+                    <div class="notif-card unread">
+                        <img src="avatar.png" alt="avatar">
+                        <div class="description">
+                            <p class="user-activity">
+                                <strong>User Name</strong>
+                                <span class="for_notify"> has made a new post has made a new post has made a new post
+                                    has made a new post
+                                    has made
+                                    a new post has made a new post has made a new post has made a new post has made a
+                                    new
+                                    post
+                                </span>
+                            </p>
+                            <p class="time">1m ago</p>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"></label><br>
+                        </div>
+                    </div>
+                    <div class="notif-card unread">
+                        <img src="avatar.png" alt="avatar">
+                        <div class="description">
+                            <p class="user-activity">
+                                <strong>User Name</strong>
+                                <span class="for_notify"> has made a new post has made a new post has made a new post
+                                    has made a new post
+                                    has made
+                                    a new post has made a new post has made a new post has made a new post has made a
+                                    new
+                                    post
+                                </span>
+                            </p>
+                            <p class="time">1m ago</p>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"></label><br>
+                        </div>
+                    </div>
+                    <div class="notif-card unread">
+                        <img src="avatar.png" alt="avatar">
+                        <div class="description">
+                            <p class="user-activity">
+                                <strong>User Name</strong>
+                                <span class="for_notify"> has made a new post has made a new post has made a new post
+                                    has made a new post
+                                    has made
+                                    a new post has made a new post has made a new post has made a new post has made a
+                                    new
+                                    post
+                                </span>
+                            </p>
+                            <p class="time">1m ago</p>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="checked">
+                            <label for="vehicle1"></label><br>
+                        </div>
+                    </div>
+                    <div class="notif-card unread">
+                        <img src="avatar.png" alt="avatar">
+                        <div class="description">
+                            <p class="user-activity">
+                                <strong>User Name</strong>
+                                <span class="for_notify"> has made a new post has made a new post has made a new post
+                                    has made a new post
+                                    has made
+                                    a new post has made a new post has made a new post has made a new post has made a
+                                    new
+                                    post
+                                </span>
+                            </p>
+                            <p class="time">1m ago</p>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"></label><br>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <div class="buttons">
+                <button type="button" class="approve"> Approve </button>
+                <button type="button" class="reject"> Reject </button>
+                <button type="button" class="block"> Block </button>
+            </div>
+            <!-- *************************************End Notification Section****************************************************** -->
+        </div>
+    </div>
+    <footer>
+        <div class="dashboard-container">
+            <div class="dashbourd-row">
+                <div class="footer-content footer-Brand">
+                    <a href="#"> Moghtareb </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="admin.js"> </script>
+
+</body>
+
+</html>
