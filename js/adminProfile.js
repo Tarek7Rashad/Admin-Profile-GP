@@ -1,8 +1,8 @@
-// const openNotificationPage = document.querySelector(".open");
-// openNotificationPage.addEventListener("click", function () {
-//   window.location.href =
-//     "file:///E:/4th%20year%20lecture%20semester%20two/admin/admin.html#";
-// });
+const openNotificationPage = document.querySelector(".open");
+openNotificationPage.addEventListener("click", function () {
+  window.location.href =
+    "file:///E:/4th%20year%20lecture%20semester%20two/admin/admin.html#";
+});
 // let user_name = document.getElementById("username");
 // let first_name = document.querySelector(".first_name");
 // let last_name = document.querySelector(".last_name");

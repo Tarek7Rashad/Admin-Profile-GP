@@ -30,7 +30,7 @@ document.querySelector(".theme-toggle").addEventListener("click", () => {
 let openProfilePage = document.querySelector(".openP");
 openProfilePage.addEventListener("click", function () {
   window.open(
-    "file:///E:/4th%20year%20lecture%20semester%20two/adminProofile/profile.html",
+    "E://4th year lecture semester two/adminProofile/From Repo/Admin-Profile-GP/adminProfile.html",
     "_self"
   );
 });
